@@ -52,7 +52,7 @@ def create():
 def edit(id):
 	post = get_post(id)
 	
-	if request.method == 'POST'
+	if request.method == 'POST':
 		title = request.form['title']
 		content = request.form['content']
 		
